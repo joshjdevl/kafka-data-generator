@@ -1,5 +1,5 @@
-from fauxfactory import FauxFactory
+from faker import Factory
+faker = Factory.create()
 
-url = FauxFactory.generate_url()
-print url
-
+while True:
+    print faker.url()
