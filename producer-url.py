@@ -4,7 +4,7 @@ faker = Factory.create()
 from kafka.client import KafkaClient
 from kafka.producer import SimpleProducer
 
-kafka = KafkaClient("149.204.61.37:9092")
+kafka = KafkaClient("149.204.61.37:49160")
 producer = SimpleProducer(kafka)
 
 while True:

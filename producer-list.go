@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	client, err := sarama.NewClient("client_id", []string{"149.204.61.37:9092"}, sarama.NewClientConfig())
+	client, err := sarama.NewClient("client_id", []string{"149.204.61.37:49160"}, sarama.NewClientConfig())
 	if err != nil {
 		panic(err)
 	} else {
